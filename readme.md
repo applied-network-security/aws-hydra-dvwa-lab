@@ -34,7 +34,7 @@ sudo yum install terraform -y
 ```
 
 ### Step 4: Edit the terraform.tfvars 
-Add your local ip and your cloud9 if its on a different subnet
+Add your local ip (optional)
 
 ### Step 5: Launch: Perform Terraform Init/Plan and Apply
 

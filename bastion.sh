@@ -10,11 +10,11 @@ sudo service docker start
 
 sudo systemctl start docker
 sudo systemctl enable docker
-#install nmap
+#Install nmap
 sudo yum install nmap -y
 
 
-#isntall masscan
+#Install masscan
 sudo yum install git make gcc -y
 git clone https://github.com/robertdavidgraham/masscan
 cd masscan
@@ -31,6 +31,4 @@ make
 sudo make install 
 
 
-
-
-
+wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
